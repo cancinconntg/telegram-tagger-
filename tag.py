@@ -17,8 +17,8 @@ def admin_only_asli(func):
             message.reply("**You are not main admin**")
     return check
 
-api_id =2586462
-api_hash = '68542129131999986899b84a10a6170c'
+api_id =3205377
+api_hash = '1c98393f2a074a126c575b1295712063'
 mtx=""
 speed=0.1
 bot = Client('tager', api_id, api_hash,workers=7)
@@ -26,25 +26,25 @@ gap=0
 mio=0
 stoprep=0
 print('amiralirj \n \n amiralirj bmolaaaaaa -------@amiralirjg')
-api_id =2586462
-api_hash = '68542129131999986899b84a10a6170c'
-list3=[1410445908]
+api_id =3205377
+api_hash = '1c98393f2a074a126c575b1295712063'
+list3=[1647982728]
 rip_text='.'
-wwbots=[854021534,175844556]
+wwbots=[1753134503,1647982728]
 bot = Client('tager', api_id, api_hash,workers=7)
 tag_auto=0
 lefti_auto=0
 list_lefti={}
 suplock=0
-admin_all=[1410445908]
+admin_all=[1647982728]
 tag_auto_time=0
 mentiontag=True
 is_tagging = {}
 shekar=0
-man=[1410445908]
+man=[1647982728]
 auto_tag_time=0
 mention = lambda user_id, text: f'<a href=tg://user?id={user_id}>{text}</a>'
-list_admin=[1410445908,1653256635]
+list_admin=[1647982728,1753134503]
 welcome_groups = set()
 welcome_text = '**دسته گل محمدی به جمع ما خوش امدی**'
 welcome_sleep = 0
@@ -54,7 +54,7 @@ speed=0.01
 mtx_admin=''
 mentiontag=True
 is_tagging = {}
-list1=[854021534,916277313,973350686,937705727,903755081,1634013164,1444214125,1639740275,1104936422]
+list1=[1647982728,1753134503]
 
 @bot.on_message(filters.command(['settext']) & filters.group )
 @admin_only
@@ -267,7 +267,7 @@ def stbbhvjbbbop(client, message):
         except Exception as e:
             message.reply_text(f"**『 خطا❗️به پشتیبانی پیام دهید @amiralirjg 』\n {e}**")
 ###################################
-list1=[1410445908,854021534,1289410047,1181120160,1653256635,175844556]
+list1=[1647982728,1753134503]
 
 @bot.on_message(filters.regex(r'set main admin') & filters.group & filters.user(list1))
 def stkirsirmirop(client, message):
